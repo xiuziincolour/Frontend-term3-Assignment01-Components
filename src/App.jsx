@@ -4,22 +4,22 @@ import "./App.css";
 
 function App() {
   return (
-  <div className="BookCatalog">
-    <header className="header">
-      <h1>Book Catalog</h1>
-    </header>
+    <div className="BookCatalog">
+      <header className="header">
+        <h1>Book Catalog</h1>
+      </header>
 
-    <main className="main">
-      <AddMore />
-      <Books isbn="9781098125974" />
-      <Books isbn="9781098104030" />
-    </main>
+      <main className="main">
+        <AddMore />
+        <Books isbn="9781098125974" />
+        <Books isbn="9781098104030" />
+      </main>
 
-    <footer className="footer">
-      <p>Xiuzi Guo 2025</p>
-      <p>A01409690</p>
-    </footer>
-  </div>
+      <footer className="footer">
+        <p>Xiuzi Guo 2025</p>
+        <p>A01409690</p>
+      </footer>
+    </div>
   );
 }
 
